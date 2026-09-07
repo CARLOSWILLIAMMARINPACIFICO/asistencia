@@ -19,8 +19,8 @@ function horaActualPeru() {
 // Se calcula con Intl usando esa zona horaria a proposito, para que el
 // bloqueo sea correcto sin importar en que zona horaria este el servidor
 // donde corre la app (ej. Render puede correr en UTC).
-const HORA_APERTURA = "08:30";
-const HORA_CIERRE = "15:30";
+//const HORA_APERTURA = "08:30";
+//const HORA_CIERRE = "15:30";
 
 function dentroDeHorarioAtencion() {
   const horaLima = new Intl.DateTimeFormat("es-PE", {
