@@ -9,7 +9,7 @@
 // OJO: esto borra tanto a la persona como TODOS sus registros de visita
 // (no se puede deshacer).
 
-const { db, inicializar } = require("./db");
+/*const { db, inicializar } = require("./db");
 
 const [, , dni] = process.argv;
 
@@ -44,3 +44,4 @@ async function main() {
 }
 
 main();
+*/
